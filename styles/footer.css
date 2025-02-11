@@ -1,3 +1,16 @@
+/*
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1,5;
+}
+
+body {
+    font-size: 12px;
+}
+*/
+
+/*
 .footer {
     background-color: blue;
     margin-top: 200px;
@@ -7,12 +20,33 @@
 
     margin: 200px 40px 250px 20px;
     margin: 40px;
-    padding: 20px;
+    padding: 1rem;
     border-color: red;
     border-width: 1px;
     border-style: solid;
-
     border: 2px solid red;
-
     text-align: center;
+
+    /*1rem -> 16 px
+    font-size: 1rem;
+
+    font-weight: 400;
+    /*text-decoration: underline;
+    /*text-transform: uppercase; -> No es necesario que se toque en el codigo js si solo es texto de la web  
+    /*font-style: italic; ->
+    strong {
+        font-size: 1.005rem;
+    }
+}
+/*
+.footer strong {
+    font-size: 1.005rem;
+}
+*/
+
+.footer {
+    text-align: center;
+    font-weight: 100;
+    font-style: italic;
+    padding: 2em, 0;
 }
