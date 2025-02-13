@@ -9,6 +9,7 @@
         min-width: 200px;
     }
 }
+/*
 .nav {
     .list {
         list-style: none;
@@ -17,6 +18,12 @@
 
     }
 }
+.nav .list {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+}
+*/
 
 .header .nav .list {
     list-style: none;

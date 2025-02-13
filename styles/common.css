@@ -32,3 +32,7 @@ a {
     margin-bottom: 1rem;
 }
 
+a.hide {
+    display: none;
+    visibility: hidden;
+}
