@@ -27,6 +27,10 @@ a {
     opacity: 1;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .p {
     margin: 0;
     margin-bottom: 1rem;
@@ -34,5 +38,5 @@ a {
 
 a.hide {
     display: none;
-    visibility: hidden;
 }
+
