@@ -6,7 +6,37 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Codeflix sigin.html</h1>
-    <a href="./index.html">Home</a>
+    <h1>sigin.html</h1>
+    <form>
+        <div>
+            <label for="mail"> Add your email </label>
+            <!--Parametros para un input 1. type, 2. name,  3. id"un identificador" -->
+            <input type="email" name="email" id="mail" autocomplete="off" value="test@test.com">
+        </div>
+        <div>
+            <label for="password"> Add your password</label>
+            <input type="password" name="password" id="password" placeholder="Add your password">
+        </div>
+        <div>
+            <label for="tel">Enter your number</label>
+            <!--<input type="number" step="100" name="telephone" id="tel" autocomplete="off">-->
+            <input type="tel" name="telephone" id="tel" autocomplete="off">
+        </div>
+        <div>
+            <label for="profile">Choose a profile picture</label>
+            <input type="file" name="profile" id="profile" accept="image/png">
+        </div>
+        <fieldset>
+            <legend>Fav genere</legend>
+            <label for="js">js</label>
+            <input type="checkbox" name="fav" id="js" value="js">
+            <label for="python">python</label>
+            <input type="checkbox" name="fav" id="python" value="python">
+            <legend></legend>
+        </fieldset>
+        <div>
+            <button>Guardar</button>
+        </div>
+    </form>
 </body>
 </html>
