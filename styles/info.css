@@ -9,9 +9,9 @@
         display: flex;
         justify-content: center;
         position: relative;
-        z-index: -1;
         img {
             width: 16em; 
+            z-index: -1;
         }
         video {
             position: absolute;
