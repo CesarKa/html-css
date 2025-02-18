@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codeflix</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/componets.css">
+    <link rel="stylesheet" href="./styles/signin.css">
+</head>
+<body class="main-bg container">
+    <main class="card">
+    <h1>signin.html</h1>
+    <form>
+        <div class="form-element">
+            <label for="mail"> Add your email </label>
+            <!--Parametros para un input 1. type, 2. name,  3. id"un identificador" -->
+            <input type="email" name="email" id="mail" autocomplete="off" value="test@test.com">
+        </div>
+        <div class="form-element">
+            <label for="password"> Add your password</label>
+            <input type="password" name="password" id="password" placeholder="Add your password">
+        </div>
+        <div class="form-element">
+            <label for="tel">Enter your number</label>
+            <!--<input type="number" step="100" name="telephone" id="tel" autocomplete="off">-->
+            <input 
+            required
+            type="tel" 
+            name="telephone" 
+            id="tel" 
+            autocomplete="off"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            placeholder="123-123-1234"
+            >
+        </div>
+        <div class="file-element">
+            <label for="profile">Choose a profile picture</label>
+            <input type="file" name="profile" id="profile" accept="image/png">
+        </div>
+        <fieldset>
+            <legend>Fav programing language</legend>
+            <label for="js">js</label>
+            <input required type="radio" name="fav" id="js" value="js" checked>
+            <label for="python">python</label>
+            <input required type="radio" name="fav" id="python" value="python">
+            <legend></legend>
+        </fieldset>
+        <!--        <fieldset>
+            <legend>Fav programing language</legend>
+            <label for="js">js</label>
+            <input type="checkbox" name="fav" id="js" value="js" checked>
+            <label for="python">python</label>
+            <input type="checkbox" name="fav" id="python" value="python">
+            <legend></legend>
+        </fieldset>
+        -->
+        <div class="form-element">
+            <label for="bio">User bio</label>
+            <textarea name="bio" id="bio" rows="6" placeholder="add your bio"></textarea>
+        </div>
+        <!-- <div>
+            <button class="btn" type="button">click</button>
+        </div> -->
+        <div>
+            <label for="remember">Remember me</label>
+            <input type="checkbox" name="remember" id="remember">
+        </div>
+        <div class="form-element">
+            <label for="country">Country</label>
+            <select name="country" id="country">
+            <option value="es">España</option>
+            <option value="co">Colombia</option>
+            <option value="us" selected>Usa</option>
+        </select>
+        </div>
+        <div>
+            <input class="btn secondary" type="reset" value="reset">
+            <button class="btn" type="submit">Guardar</button>
+        </div>
+    </form>
+</main>
+</body>
+</html>
