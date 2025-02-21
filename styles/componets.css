@@ -15,7 +15,7 @@
     }
 }
 
-@media screen and (hober: hover) {
+@media screen and (hover: hover) {
     .btn {
         cursor: pointer;
     } 
